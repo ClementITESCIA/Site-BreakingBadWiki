@@ -1,0 +1,133 @@
+﻿
+/********************************************/
+/* Police de caractères                     */
+/********************************************/
+
+@font-face
+{
+    font-family: 'freeroad';
+    src: url('font/freeroad_light.ttf');
+}
+
+/********************************************/
+/* Initialisation                           */
+/********************************************/
+
+html, body
+{
+	font-family: 'freeroad';
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/********************************************/
+/* Menu de navigation                       */
+/********************************************/
+
+nav
+{
+	position: fixed;
+	z-index: 1;
+	background-color: white;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 100px;
+}
+
+.elements-nav
+{
+	text-align: center;
+	line-height: 95px;
+	font-size: 20px;
+	color: #006600;
+	float: left;
+	width: 200px;
+	height: 95px;
+}
+
+/********************************************/
+/*                                          */
+/********************************************/
+
+.picture-button
+{
+	background-color: transparent;
+	font-size: 30px;
+	color: #999;
+	border: none;
+}
+
+/********************************************/
+/*                                          */
+/********************************************/
+
+.conteneur
+{
+	padding-top: 113px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.image-nav
+{
+	position: absolute;
+	width: 100%;
+	height: inherit;
+	display: none;
+}
+
+.opaque
+{
+	display: block;
+}
+
+.selection-image
+{
+	margin-top: 32%;
+	width: 100%;
+	text-align: center;
+}
+
+.barre-progression
+{
+	position: absolute;
+	margin-top: 110px;
+	height: 3px;
+	background-color: #006600;
+	width: 0px;
+}
+
+.footer
+{
+	text-align: center;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	background: #999;
+}
+
+.contenu-synopsis
+{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	width: 500px;
+	height: 300px;
+	margin-left: 250px;
+	font-size: 20px;
+	color: #006600;
+	border-right: 2px solid #006600;
+	border-bottom: 2px solid #006600;
+	border-left: 2px solid #006600;
+	background-color: white;
+}
+
+.logo
+{
+	padding-top: 7px;
+}
