@@ -131,3 +131,24 @@ nav
 {
 	padding-top: 7px;
 }
+
+/********************************************/
+/*	SideBar                                 */
+/********************************************/
+
+#sidebar
+{
+	float: right;
+	width: 350px;
+	margin-right: 30px;
+	height: 450px;
+	border: 2px solid black;
+}
+
+#sidebar a
+{
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	border-top: 2px solid black;
+}
