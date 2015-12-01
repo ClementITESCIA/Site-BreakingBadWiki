@@ -44,8 +44,20 @@ nav
 	font-size: 20px;
 	color: #006600;
 	float: left;
-	width: 200px;
+	width: 190px;
 	height: 95px;
+}
+
+.elements-nav a
+{
+	text-decoration: none;
+	color: #006600;
+
+}
+
+.elements-nav a:hover
+{
+	font-weight: bold;
 }
 
 /********************************************/
@@ -103,14 +115,34 @@ nav
 .footer
 {
 	text-align: center;
-	position: fixed;
 	left: 0px;
 	bottom: 0px;
-	height: 30px;
+	height: 70px;
 	width: 100%;
-	background: #999;
+	margin-bottom: 0px;
+	padding-top: 15px;
 }
 
+#html, #css
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+}
+
+#copy
+{
+	margin-left: 35%;
+	margin-right: 25%;
+	width: 400px;
+	display: block;
+}
+
+#info
+{
+	padding-top: 10px;
+	float: right;
+}
 .contenu-synopsis
 {
 	display: none;
