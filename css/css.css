@@ -112,37 +112,45 @@ nav
 	width: 0px;
 }
 
+/********************************************/
+/* Footer                                   */
+/********************************************/
+
 .footer
 {
+	margin-bottom: 0px;
+	padding-top: 15px;
 	text-align: center;
 	left: 0px;
 	bottom: 0px;
 	height: 70px;
 	width: 100%;
-	margin-bottom: 0px;
-	padding-top: 15px;
 }
 
-#html, #css
+#informations,
+#html-5-logo,
+#css-3-logo
 {
-	padding-top: 10px;
-	padding-left: 10px;
 	float: left;
+	margin-top: 15px;
 }
 
-#copy
+#informations
 {
-	margin-left: 35%;
-	margin-right: 25%;
+	float: right;
+}
+
+#copyrights
+{
+	margin: auto;
 	width: 400px;
 	display: block;
 }
 
-#info
-{
-	padding-top: 10px;
-	float: right;
-}
+/********************************************/
+/*                                          */
+/********************************************/
+
 .contenu-synopsis
 {
 	display: none;
@@ -175,7 +183,6 @@ nav
 	width: 350px;
 	margin-right: 30px;
 	height: 450px;
-	border: 2px solid black;
 }
 
 .items
@@ -184,6 +191,12 @@ nav
 	background: #006600;
 	color: white;
 	border-bottom: 1px solid white;
+	border-radius: 5px;
+}
+
+.items-active
+{
+	background: #FFD829;
 }
 
 .subitems
