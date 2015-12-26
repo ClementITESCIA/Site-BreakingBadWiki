@@ -12,6 +12,11 @@ html, body
 	margin: 0;
 }
 
+body
+{
+	background: black url('../img/wallpaper.png');
+}
+
 /********************************************/
 /* Menu de navigation                       */
 /********************************************/
@@ -19,36 +24,37 @@ html, body
 nav
 {
 	position: fixed;
-	z-index: 1;
-	background-color: #111111;
+	z-index: 2;
+	background-color: #101010;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	width: 100%;
 	height: 65px;
+	overflow: hidden;
 	border-bottom:  2px solid black;
 }
 
 .elements-nav
 {
 	text-align: center;
-	line-height: 65px;
+	line-height: 77px;
 	font-size: 20px;
 	color: #006600;
 	float: left;
 	width: 190px;
-	height: 65px;
+	height: 77px;
+	border-right: 1px solid #252525;
 }
 
 .elements-nav a
 {
 	text-decoration: none;
 	color: white;
-
 }
 
-.elements-nav a:hover
+.elements-nav:hover
 {
-	font-weight: bold;
+	background-color: #252525;
 }
 
 /********************************************/
@@ -67,9 +73,16 @@ nav
 /*                                          */
 /********************************************/
 
+#img-1,
+#img-2,
+#img-3
+{
+	box-shadow: 0 10px 6px -6px #777;
+}
+
 .conteneur
 {
-	padding-top: 113px;
+	padding-top: 80px;
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -97,9 +110,9 @@ nav
 .barre-progression
 {
 	position: absolute;
-	margin-top: 110px;
+	margin-top: 77px;
 	height: 3px;
-	background-color: #006600;
+	background-color: #FFD829;
 	width: 0px;
 }
 
@@ -109,30 +122,28 @@ nav
 
 .footer
 {
-	margin-bottom: 0px;
 	padding-top: 15px;
 	text-align: center;
-	left: 0px;
-	bottom: 0px;
 	height: 70px;
 	width: 100%;
+	background-color: #101010;
+	border-top: 1px solid black;
+	color: white;
 }
 
 #informations,
 #html-5-logo,
-#css-3-logo,
-#github
+#css-3-logo
 {
 	float: left;
-	margin-top: 15px;
 }
 
-#informations, #github
+#facebook, #twitter, #github
 {
 	float: right;
 }
 
-#copyrights
+#copyright
 {
 	margin: auto;
 	width: 400px;
@@ -163,7 +174,7 @@ nav
 {
 	margin-bottom: 5px;
 	margin-top: 5px;
-	width: 300px;
+	width: 200px;
 	height: 65px;
 }
 
@@ -171,40 +182,103 @@ nav
 /*	SideBar                                 */
 /********************************************/
 
-#sidebar
+#rail
 {
-	float: right;
-	width: 350px;
-	margin-right: 30px;
-	height: 450px;
+	position: absolute;
+	height: 100%;
+	right: 10px;
+	width: 319px;
+	color: black;
 }
 
-.items
+#sidebar-title h4,
+.item-titles h4,
+.subitems p
 {
-	height:50px;
-	background: #006600;
+	margin: 0px;
+}
+
+#sidebar-title
+{
+	background-color: #101010;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
 	color: white;
-	border-bottom: 1px solid white;
-	border-radius: 5px;
+	border-bottom: 1px solid black;
 }
 
-.items-active
+.item-titles
 {
-	background: #FFD829;
+	background-color: #101010;
+	border-bottom: 1px solid black;
+	color: white;
+
+}
+
+.item-titles
+{
+	cursor: pointer; 
+	padding-left: 25px;
+	color: white;
+	line-height: 49px;
+	height: 49px;
 }
 
 .subitems
 {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	color: white;
+	height: 50px;
+	padding-top: 5px;
+	background-color: #252525;
+	font-size: 15px;
+}
+
+.active-container
+{
+	position: absolute;
+	width: 15px;
+	height: 50px;
+}
+
+.hide
+{
 	display: none;
-	height: 0px;
+}
+
+.active-title
+{
+	background-color: #FFD829;
+}
+
+.active-subitem
+{
+	color: #FFD829;
+	font-weight: bold;
+}
+
+/********************************************/
+/*	Content                                 */
+/********************************************/
+
+#content-container
+{
+	position: relative;
+	min-height: 100%;
 }
 
 .content
 {
+	background-color: #252525;
+	color: white;
 	padding: 25px;
-	margin-left: 25px;
+	margin-top: 40px;
+	margin-left: 75px;
 	margin-bottom: 3%;
-	margin-right: 25%;
+	margin-right: 350px;
 	font-size: 25px;
 	border: 1px solid black;
 }
@@ -212,4 +286,28 @@ nav
 .content-title
 {
 	font-size: 40px;
+}
+
+#current-theme
+{
+	position: absolute;
+	z-index: 1;
+	font-size: 40px;
+	color: white;
+	margin-top: 350px;
+	margin-left: 100px;
+	width: 500px;
+	height: 150px;
+}
+
+#span-title
+{
+	float: left;
+	width: inherit;
+	border-bottom: 3px solid white;
+}
+
+#span-theme
+{
+	float: right;
 }

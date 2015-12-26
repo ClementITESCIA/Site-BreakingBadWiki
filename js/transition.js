@@ -15,7 +15,7 @@ $('#b1').click(function()
 	{
 		$('#barre').css('width','0px');
 		$(bouton).css('color','#999');
-		$('#b1').css('color','black');
+		$('#b1').css('color','#FFD829');
 		bouton = '#b1';
 		barre_width = 0;
 		
@@ -31,7 +31,7 @@ $('#b2').click(function()
 	{
 		$('#barre').css('width','0px');
 		$(bouton).css('color','#999');
-		$('#b2').css('color','black');
+		$('#b2').css('color','#FFD829');
 		bouton = '#b2';
 		barre_width = 0;
 		
@@ -47,7 +47,7 @@ $('#b3').click(function()
 	{
 		$('#barre').css('width','0px');
 		$(bouton).css('color','#999');
-		$('#b3').css('color','black');
+		$('#b3').css('color','#FFD829');
 		bouton = '#b3';
 		barre_width = 0;
 		
@@ -76,7 +76,7 @@ timer = setInterval(function()
 				$('#img-2').fadeIn(750);
 				
 				$('#b1').css('color','#999');
-				$('#b2').css('color','black');
+				$('#b2').css('color','#FFD829');
 				
 				image = '#img-2';
 				bouton = '#b2';
@@ -86,7 +86,7 @@ timer = setInterval(function()
 				$('#img-3').fadeIn(750);
 				
 				$('#b2').css('color','#999');
-				$('#b3').css('color','black');
+				$('#b3').css('color','#FFD829');
 				
 				image = '#img-3';
 				bouton = '#b3';
@@ -96,7 +96,7 @@ timer = setInterval(function()
 				$('#img-1').fadeIn(750);
 				
 				$('#b3').css('color','#999');
-				$('#b1').css('color','black');
+				$('#b1').css('color','#FFD829');
 				
 				image = '#img-1';
 				bouton = '#b1';
