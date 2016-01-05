@@ -34,27 +34,58 @@ nav
 	border-bottom:  2px solid black;
 }
 
-.elements-nav
+#container-nav
 {
-	text-align: center;
-	line-height: 77px;
-	font-size: 20px;
-	color: #006600;
+	margin: auto;
+	width: 1400px;
+	height: 65px;
+}
+
+#menu, #menu ul   
+{
+    padding : 0;
+    margin : 0;
+    list-style : none;
+    text-align : center;
+}
+
+#menu li
+{
 	float: left;
-	width: 190px;
 	height: 77px;
 	border-right: 1px solid #252525;
+	width: inherit;
 }
 
-.elements-nav a
+#menu li:first-child
 {
-	text-decoration: none;
-	color: #006540;
+	border-left: 1px solid #252525;
 }
 
-.elements-nav:hover
+#menu
 {
-	background-color: #252525;
+    font-family : Arial;
+    font-size : 12px;
+    height: inherit;
+}
+
+#menu a
+{
+    display: block;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 25px;
+    color: #006540;
+}
+
+
+#menu a:hover  
+{
+    background: #252525;
 }
 
 /********************************************/
@@ -231,7 +262,6 @@ nav
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
 	color: white;
-	height: 50px;
 	padding-top: 5px;
 	background-color: #252525;
 	font-size: 15px;
@@ -285,6 +315,7 @@ nav
 
 .content-title
 {
+	color:  #FFD829;
 	font-size: 40px;
 }
 
@@ -310,4 +341,42 @@ nav
 #span-theme
 {
 	float: right;
+}
+
+/********************************************/
+/*	Images personnages                      */
+/********************************************/
+
+.character-containers
+{
+	height: 375px;
+	width: 250px;
+	border: 5px solid white;
+	box-shadow: 5px 5px 5px #656565;
+	float: left;
+}
+
+.pair
+{
+	transform:rotate(3deg);
+}
+
+.impair
+{
+	transform:rotate(-3deg);
+}
+
+.character-names
+{
+	position: absolute;
+	text-align: center;
+	margin-top: 345px;
+	background-color: black;
+	width: 250px;
+	opacity: 0.75;
+}
+
+.character-content
+{
+	height: 500px;
 }

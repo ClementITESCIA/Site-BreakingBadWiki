@@ -8,29 +8,32 @@
 	<body>
 		<!--BARRE DE NAVIGATION -->
 		<nav>
-			<!--LOGO-->
-			<div style="float: left;">
-				<a href="../index.html">
-					<img class="logo" src="../img/logo/breaking_bad_logo.svg"></img>
-				</a>
-			</div>
-			<div id="nav-synopsis" class="elements-nav">
-				<a href="../index.html">Accueil</a>
-			</div>
-			<div class="elements-nav">
-				<a href="saison.html">Saisons</a>
-			</div>
-			<div class="elements-nav">
-				<a href="#">Personnages</a>
-			</div>
-			<div class="elements-nav">
-				<a href="univers.html">Univers</a>
-			</div>
-			<div class="elements-nav">
-				<a href="production.html">Production</a>
+			<div id="container-nav">
+				<!--LOGO-->
+				<div style="float: left;">
+					<a href="../index.html">
+						<img class="logo" src="../img/logo/breaking_bad_logo.svg"></img>
+					</a>
+				</div>
+				<ul id="menu">
+					<li>
+						<a href="../index.html">Accueil</a>
+					</li>
+					<li>
+						<a href="saison.html">Saisons</a>
+					</li>
+					<li>
+						<a href="#">Personnages</a>
+					</li>
+					<li>
+						<a href="univers.html">Univers</a>
+					</li>
+					<li>
+						<a href="production.html">Production</a>
+					</li>
+				</ul>
 			</div>
 		</nav>
-
 		<div>
 			<div id="barre" class="barre-progression"></div>
 			<div class="conteneur">
@@ -44,26 +47,327 @@
 				<button class="picture-button" id="b3">•</button>
 			</div>
 		</div>
-		<div style="margin-left: 25%; margin-bottom: 3%; margin-right: 25%; text-align: justify; font-size: 25px;">
-			<p style="text-align: center;">Saison 1</p>
-			<p>
-				Walter « Walt » White est un professeur de chimie dans un lycée du Nouveau-Mexique
-				et un père de famille de 50 ans. Sa femme Skyler est enceinte et son fils Walter Jr.,
-				est handicapé. Son quotidien déjà morose devient carrément noir lorsqu'il apprend
-				qu'il est atteint d'un incurable cancer des poumons. Les médecins ne lui donnent
-				pas plus de deux ans à vivre.
-			</p>
-			<p>
-				Hank, son beau-frère et agent à la DEA, lui fait part des énormes sommes d'argent
-				brassées par le marché de la drogue. Afin d'économiser suffisamment d'argent pour
-				sa famille lorsqu'il ne sera plus de ce monde, Walter décide de s'associer avec
-				Jesse Pinkman, un de ses anciens élèves devenu junkie et accessoirement dealer.
-				Grâce à ses connaissances poussées en chimie, Walter produit de la méthamphétamine
-				à la limite de la perfection tandis que Jesse se charge de la distribution du
-				"Blue Sky", surnom donné au produit en raison de sa pureté et de son aspect bleuté.
-				Le duo improvisé met alors en place un labo itinérant dans un vieux camping-car
-				et commence à « cuisiner » dans le secret absolu au milieu d'un désert d'Albuquerque.
-			</p>
+		<div id="content-container">
+			<!-- SIDEBAR -->
+			<div id="rail">
+				<div id="sidebar-container">
+					<div id="sidebar-title">
+						<h4>Navigation : Personnages</h4>
+					</div>
+					<div class="items" id="item-0">
+						<div class="active-container active-title"></div>
+						<div class="item-titles">
+							<h4>Jesse Pinkman</h4>
+						</div>
+						<div class="subitems">
+							<ul>
+								<li id="subitem-0" class="active-subitem">
+									Acteur
+								</li>
+								<li id="subitem-1">
+									Rôle
+								</li>
+								<li id="subitem-2">
+									Description
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="items" id="item-1">
+						<div class="active-container"></div>
+						<div class="item-titles">
+							<h4>Walter White</h4>
+						</div>
+						<div class="subitems hide">
+							<ul>
+								<li id="subitem-3">
+									Acteur
+								</li>
+								<li id="subitem-4">
+									Rôle
+								</li>
+								<li id="subitem-5">
+									Description
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="items" id="item-2">
+						<div class="active-container"></div>
+						<div class="item-titles">
+							<h4>Hank Schrader</h4>
+						</div>
+						<div class="subitems hide">
+							<ul>
+								<li id="subitem-6">
+									Acteur
+								</li>
+								<li id="subitem-7">
+									Rôle
+								</li>
+								<li id="subitem-8">
+									Description
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="items" id="item-3">
+						<div class="active-container"></div>
+						<div class="item-titles">
+							<h4>Skyler White</h4>
+						</div>
+						<div class="subitems hide">
+							<ul>
+								<li id="subitem-9">
+									Acteur
+								</li>
+								<li id="subitem-10">
+									Rôle
+								</li>
+								<li id="subitem-11">
+									Description
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="items" id="item-4">
+						<div class="active-container"></div>
+						<div class="item-titles">
+							<h4>Walter White Jr.</h4>
+						</div>
+						<div class="subitems hide">
+							<ul>
+								<li id="subitem-12">
+									Acteur
+								</li>
+								<li id="subitem-13">
+									Rôle
+								</li>
+								<li id="subitem-14">
+									Description
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="items" id="item-5">
+						<div class="active-container"></div>
+						<div class="item-titles">
+							<h4>Skinny Pete</h4>
+						</div>
+						<div class="subitems hide">
+							<ul>
+								<li id="subitem-15">
+									Acteur
+								</li>
+								<li id="subitem-16">
+									Rôle
+								</li>
+								<li id="subitem-17">
+									Description
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="items" id="item-6">
+						<div class="active-container"></div>
+						<div class="item-titles">
+							<h4>Gustavo Fring</h4>
+						</div>
+						<div class="subitems hide">
+							<ul>
+								<li id="subitem-18">
+									Acteur
+								</li>
+								<li id="subitem-19">
+									Rôle
+								</li>
+								<li id="subitem-20">
+									Description
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="items" id="item-7">
+						<div class="active-container"></div>
+						<div class="item-titles">
+							<h4>Tuco Salamanca</h4>
+						</div>
+						<div class="subitems hide">
+							<ul>
+								<li id="subitem-21">
+									Acteur
+								</li>
+								<li id="subitem-22">
+									Rôle
+								</li>
+								<li id="subitem-23">
+									Description
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="items" id="item-8">
+						<div class="active-container"></div>
+						<div class="item-titles">
+							<h4>Mike Ehrmantraut</h4>
+						</div>
+						<div class="subitems hide">
+							<ul>
+								<li id="subitem-22">
+									Acteur
+								</li>
+								<li id="subitem-23">
+									Rôle
+								</li>
+								<li id="subitem-24">
+									Description
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- CONTENT -->
+			<div class="content">
+				<div id="content-0" class="character-content">
+					<div class="character-containers impair">
+						<p class="character-names">Jesse Pinkman</p>
+						<img src="../img/personnages/jesse_pinkman.jpg">
+					</div>
+					<div style="margin-left: 350px;">
+						<h1 class="content-title">Jesse Pinkman</h1>
+						<h5 id="subitem-0">Acteur : Aaron Paul</h5>
+						<h5 id="subitem-1">Rôle : Personnage principal de Breaking Bad</h5>
+						<h5 id="subitem-2">Description :</h5>
+						<p>
+							Ancien élève de Walter White, Jesse est attiré par l’argent. Issu d’une famille bourgeoise qui l’a chassé, recalé aux examens de chimie, son sens du business l’a pourtant poussé à devenir fabricant de méthamphétamine. Repéré par hasard par son ancien prof, Jesse va être contraint de former avec lui un duo insolite.
+							Paumé, comique malgré lui, sa bêtise l’amène à des situations de plus en plus loufoques.
+							Admiratif du talent de Walt, Jesse devient alors son partenaire indispensable, en réalisant ce qu’il sait faire : dealer, un art et il en est fier.
+						</p>
+					</div>
+				</div>
+				<div id="content-1" class="character-content">
+					<div class="character-containers pair">
+						<p class="character-names">Walter White</p>
+						<img src="../img/personnages/walter_white.jpg">
+					</div>
+					<div style="margin-left: 350px;">
+						<h1 class="content-title">Walter White</h1>
+						<h5>Acteur : Bryan Cranston</h5>
+						<h5>Rôle : Personnage principal de Breaking Bad</h5>
+						<h5>Description :</h5>
+						<p>
+							Walter est un professeur de chimie de 50 ans au troisième stade d'un cancer du poumon dont le traitement coûte trop cher pour lui. Pour assurer une vie plus confortable à sa famille après sa mort, il décide d'utiliser ses connaissances en chimie pour produire de la méthamphétamine et la revendre.
+						</p>
+					</div>
+				</div>
+				<div id="content-2" class="character-content">
+					<div class="character-containers impair">
+						<p class="character-names">Hank Schrader</p>
+						<img src="../img/personnages/hank_schrader.jpg">
+					</div>
+					<div style="margin-left: 350px;">
+						<h1 class="content-title">Hank Schrader</h1>
+						<h5>Acteur : Dean Norris</h5>
+						<h5>Rôle : Seconds rôles de Breaking Bad</h5>
+						<h5>Description :</h5>
+						<p>
+							Beau frère de Walter White. Membre des stups, il est tenace et très sympathique.
+						</p>
+					</div>
+				</div>
+				<div id="content-3" class="character-content">
+					<div class="character-containers pair">
+						<p class="character-names">Skyler White</p>
+						<img src="../img/personnages/skyler_white.jpg">
+					</div>
+					<div style="margin-left: 350px;">
+						<h1 class="content-title">Skyler White</h1>
+						<h5>Acteur : Anna Gunn</h5>
+						<h5>Rôle : Seconds rôles de Breaking Bad</h5>
+						<h5>Description :</h5>
+						<p>
+							Skyler, la femme de Walter, est une mère au foyer et enceinte de son deuxième enfant. Entre ses échographies et ses tentatives d’écriture, elle prend soin de ravitailler son fils ado et son mari en bacon végétarien. Alors que sa grossesse arrive à son terme, Skyler s’inquiète pour son mari, au comportement de plus en plus étrange.
+						</p>
+					</div>
+				</div>
+				<div id="content-4" class="character-content">
+					<div class="character-containers impair">
+						<p class="character-names">Walter White Jr.</p>
+						<img src="../img/personnages/walter_white_jr.jpg">
+					</div>
+					<div style="margin-left: 350px;">
+						<h1 class="content-title">Walter White Jr.</h1>
+						<h5>Acteur : RJ Mitte</h5>
+						<h5>Rôle : Seconds rôles de Breaking Bad</h5>
+						<h5>Description :</h5>
+						<p>
+						C'est le fils de Walter et de Skyler. Il est handicapé par une encéphalopathie, entraînant des difficultés d'elocution et motrice. Il marche avec des béquilles.
+						Il a beaucoup d'admiration pour son oncle, Hank. 
+						</p>
+					</div>
+				</div>
+				<div id="content-5" class="character-content">
+					<div class="character-containers pair">
+						<p class="character-names">Skinny Pete</p>
+						<img src="../img/personnages/skinny_pete.jpg">
+					</div>
+					<div style="margin-left: 350px;">
+						<h1 class="content-title">Skinny Pete</h1>
+						<h5>Acteur : Charles Baker</h5>
+						<h5>Rôle : Personnage récurrent de Breaking Bad</h5>
+						<h5>Description :</h5>
+						<p>
+							Skinny Pete est un des meilleurs amis de Jesse Pinkman. Lui et Badger sont inséparables et participent aux soirées de Jesse.
+						</p>
+					</div>
+				</div>
+				<div id="content-6" class="character-content">
+					<div class="character-containers impair">
+						<p class="character-names">Gustavo Fring</p>
+						<img src="../img/personnages/gustavo_fring.jpg">
+					</div>
+					<div style="margin-left: 350px;">
+						<h1 class="content-title">Gustavo Fring</h1>
+						<h5>Acteur : Giancarlo Esposito</h5>
+						<h5>Rôle : Autres personnages</h5>
+						<h5>Description :</h5>
+						<p>
+							Gustavo est le "grand patron" de tout le marché de la meth au nord de la frontière mexicaine. C'est un homme méticuleux aux couvertures imparables, contrairement à la personnalité incontrôlable de Tuco Salamanca. Il respecte le sang froid et la minutie de Walter, et va jusqu'à lui confier toute sa production de meth. Il est également directeur de la chaîne de restaurants "Los pollos hermanos".
+						</p>
+					</div>
+				</div>
+				<div id="content-7" class="character-content">
+					<div class="character-containers pair">
+						<p class="character-names">Tuco Salamanca</p>
+						<img src="../img/personnages/tuco_salamanca.jpg">
+					</div>
+					<div style="margin-left: 350px;">
+						<h1 class="content-title">Tuco Salamanca</h1>
+						<h5>Acteur : Raymond Cruz</h5>
+						<h5>Rôle : Autres personnages</h5>
+						<h5>Description :</h5>
+						<p>
+							Tuco est un caïd de la drogue qui devient le distributeur de meth de Walter et Jesse. Il est imprévisible et sujet à des montées de violence soudaines mais bizarrement il respecte Walter pour sa production de drogue de qualité et sa façon de faire des affaires.
+						</p>
+					</div>
+				</div>
+				<div id="content-8" class="character-content">
+					<div class="character-containers impair">
+						<p class="character-names">Mike Ehrmantraut</p>
+						<img src="../img/personnages/mike_ehrmantraut.jpg">
+					</div>
+					<div style="margin-left: 350px;">
+						<h1 class="content-title">Mike Ehrmantraut</h1>
+						<h5>Acteur : Jonathan Banks</h5>
+						<h5>Rôle : Autres personnages</h5>
+						<h5>Description :</h5>
+						<p>
+							Garde du corps de Gustavo Fring colabore avec Jesse et Walt.
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<footer class="footer">
 			<div id="html-5-logo">

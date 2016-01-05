@@ -5,7 +5,7 @@ var rail = $('#rail');
 var nav  = $('nav');
 
 // SideBar margin
-var margin = 65;
+var margin = nav.height();
 
 // Nombre d'item
 var max_item = 0;
