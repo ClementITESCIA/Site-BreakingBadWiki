@@ -90,6 +90,8 @@ nav
 
 .horloge
 {
+	float: left;
+	height: 20px;
 	margin: 20px;
 	text-align: center;
 	text-decoration: none;
@@ -116,7 +118,7 @@ nav
 #img-2,
 #img-3
 {
-	box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #006540;
 }
 
 .conteneur
@@ -151,7 +153,7 @@ nav
 	position: absolute;
 	margin-top: 77px;
 	height: 3px;
-	background-color: #FFD829;
+	background-color: #006540;
 	width: 0px;
 }
 
@@ -243,7 +245,7 @@ nav
 	height: 49px;
 	line-height: 49px;
 	text-align: center;
-	color: white;
+	color: #006540;
 	border-bottom: 1px solid black;
 }
 
@@ -289,12 +291,12 @@ nav
 
 .active-title
 {
-	background-color: #FFD829;
+	background-color: #006540;
 }
 
 .active-subitem
 {
-	color: #FFD829;
+	color: #006540;
 	font-weight: bold;
 }
 
@@ -323,7 +325,7 @@ nav
 
 .content-title
 {
-	color:  #FFD829;
+	color:  #006540;
 	font-size: 40px;
 }
 
@@ -360,8 +362,13 @@ nav
 	height: 375px;
 	width: 250px;
 	border: 5px solid white;
-	box-shadow: 5px 5px 5px #656565;
+	box-shadow: 5px 5px 5px #006540;
 	float: left;
+}
+
+.character-containers
+{
+	border-radius: 10px;
 }
 
 .pair

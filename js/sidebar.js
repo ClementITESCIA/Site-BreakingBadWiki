@@ -62,6 +62,10 @@ var sidebar_timer = setInterval(function()
 	{
 		margin = 0;
 	}
+	if (margin + side.height() > nav.scrollTop().top)
+	{
+		margin = nav.scrollTop().top;
+	}
 
 	for (var i = 0; i < max_item; i++)
 	{
