@@ -1,3 +1,6 @@
+//probleme de rail
+// séparer les divs des personnages comme les saisons
+
 
 // Selecteurs
 var side = $('#sidebar-container');
@@ -61,10 +64,6 @@ var sidebar_timer = setInterval(function()
 	if (margin < 0)
 	{
 		margin = 0;
-	}
-	if (margin + side.height() > nav.scrollTop().top)
-	{
-		margin = nav.scrollTop().top;
 	}
 
 	for (var i = 0; i < max_item; i++)
