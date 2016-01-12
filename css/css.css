@@ -319,7 +319,7 @@ nav
 	margin-left: 75px;
 	margin-bottom: 3%;
 	margin-right: 350px;
-	font-size: 15px;
+	font-size: 20px;
 	border: 1px solid black;
 }
 
@@ -351,6 +351,27 @@ nav
 #span-theme
 {
 	float: right;
+}
+
+/*       TABLEAUX      */
+
+table
+{
+	font-size: 15px;
+	display: inline-block;
+	background-color: #006540;
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+	text-align: center;
+	padding: 5px;
+    border: 1px solid black;
+}
+
+#avatar
+{
+	margin: 0 auto;
 }
 
 /********************************************/
@@ -393,12 +414,22 @@ nav
 
 .character-content
 {
-	height: 600px;
+	margin-top: 200px;
+}
+
+.character-content:first-child
+{
+	margin-top: 0px;
+}
+
+.character-content:last-child
+{
+	margin-bottom: 150px;
 }
 
 .image-saison-container
 {
-	margin-top: 110px;
+	margin-top: 200px;
 	height: 450px;
 	width: 300px;
 	border: 5px solid white;
@@ -419,4 +450,58 @@ nav
 {
 	height: inherit;
 	width: inherit;
+}
+
+#form
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 450px;
+}
+#form label, option, input, textarea, select
+{
+	color: white;
+}
+
+#form label
+{
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+#form input, select, textarea
+{
+	display: inline-block;
+	padding: 5px;
+	border: 2px solid #006540;
+	width: 400px;
+}
+
+#form #nom, #form #prenom
+{
+	width: 192px;
+}
+
+#form select
+{
+	width: 412px;
+}
+
+#form textarea
+{
+	height: 100px;
+}
+
+#form #envoyer
+{
+	width: 412px;
+	margin-top: 20px;
+	background-color: #006540;
+}
+
+#envoyer:hover
+{
+	background-color: #007550;
+	cursor:pointer;
 }
