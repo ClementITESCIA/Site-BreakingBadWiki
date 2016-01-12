@@ -456,11 +456,8 @@ td, th /* Mettre une bordure sur les td ET les th */
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 450px;
-}
-#form label, option, input, textarea, select
-{
 	color: white;
+	width: 450px;
 }
 
 #form label
